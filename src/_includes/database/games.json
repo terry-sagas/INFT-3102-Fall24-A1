@@ -1,0 +1,635 @@
+{
+    "games": [
+      {
+        "coverImage": "PokkenTournamentDX.png",
+        "title": "Pokken Tournament DX",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "A Pokémon fighting game with a variety of characters and fast-paced battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonSword.png",
+        "title": "Pokemon Sword",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "An RPG adventure set in the Galar region, featuring new Pokémon and dynamic battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MarioRabbidsKingdomBattle.png",
+        "title": "Mario + Rabbids Kingdom Battle",
+        "year": "2017",
+        "publisher": "Ubisoft",
+        "description": "A tactical adventure where Mario teams up with Rabbids to defeat enemies in turn-based combat.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonLetsGoEevee.png",
+        "title": "Pokemon Let's Go Eevee",
+        "year": "2018",
+        "publisher": "Nintendo",
+        "description": "A remake of Pokémon Yellow featuring Eevee, with mechanics inspired by Pokémon GO.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaSkywardSwordHD.png",
+        "title": "The Legend of Zelda: Skyward Sword HD",
+        "year": "2021",
+        "publisher": "Nintendo",
+        "description": "An HD remaster of the classic Zelda game, featuring enhanced graphics and motion controls.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioBrosUDeluxe.png",
+        "title": "Super Mario Bros U Deluxe",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "A revamped version of the classic Mario platformer with new levels and power-ups.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonBrilliantDiamond.png",
+        "title": "Pokemon Brilliant Diamond",
+        "year": "2021",
+        "publisher": "Nintendo",
+        "description": "A faithful remake of Pokémon Diamond, set in the Sinnoh region with modern updates.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaLinksAwakening.png",
+        "title": "The Legend of Zelda: Link's Awakening",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "A charming remake of the classic Game Boy Zelda game with a unique visual style.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "Splatoon3.png",
+        "title": "Splatoon 3",
+        "year": "2022",
+        "publisher": "Nintendo",
+        "description": "A team-based shooter where players use ink to claim territory and defeat opponents.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioOdyssey.png",
+        "title": "Super Mario Odyssey",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "A 3D Mario platformer with vast open worlds, new power-ups, and Cappy, Mario's new hat companion.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioRPG.png",
+        "title": "Super Mario RPG",
+        "year": "2023",
+        "publisher": "Nintendo",
+        "description": "A remake of the classic Mario RPG featuring turn-based combat and a charming story.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioBrosWonder.png",
+        "title": "Super Mario Bros Wonder",
+        "year": "2023",
+        "publisher": "Nintendo",
+        "description": "A new 2D Mario platformer with wonder effects that change the world in exciting ways.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonLegendsArceus.png",
+        "title": "Pokemon Legends: Arceus",
+        "year": "2022",
+        "publisher": "Nintendo",
+        "description": "An open-world Pokémon game set in ancient times, where players catch and battle wild Pokémon.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonShiningPearl.png",
+        "title": "Pokemon Shining Pearl",
+        "year": "2021",
+        "publisher": "Nintendo",
+        "description": "A remake of Pokémon Pearl, updated for modern audiences with new features.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "ARMS.png",
+        "title": "ARMS",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "A fighting game where players use extendable arms to battle opponents in 3D arenas.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "KirbyStarAllies.png",
+        "title": "Kirby Star Allies",
+        "year": "2018",
+        "publisher": "Nintendo",
+        "description": "A Kirby platformer where Kirby teams up with friends to defeat enemies and solve puzzles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonViolet.png",
+        "title": "Pokemon Violet",
+        "year": "2022",
+        "publisher": "Nintendo",
+        "description": "One of the latest Pokémon RPGs set in the open-world Paldea region.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMario3DAllStars.png",
+        "title": "Super Mario 3D All Stars",
+        "year": "2020",
+        "publisher": "Nintendo",
+        "description": "A collection of 3 classic 3D Mario games: Super Mario 64, Sunshine, and Galaxy.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "LuigisMansion3.png",
+        "title": "Luigi's Mansion 3",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "Luigi explores a haunted hotel, using his trusty Poltergust to solve puzzles and catch ghosts.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "ShovelKnightTreasureTrove.png",
+        "title": "Shovel Knight: Treasure Trove",
+        "year": "2017",
+        "publisher": "Yacht Club Games",
+        "description": "A retro-inspired platformer with pixel art, treasure hunting, and epic boss battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonLetsGoPikachu.png",
+        "title": "Pokemon Let's Go Pikachu",
+        "year": "2018",
+        "publisher": "Nintendo",
+        "description": "A remake of Pokémon Yellow featuring Pikachu, with mechanics inspired by Pokémon GO.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaTearsOfTheKingdom.png",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "year": "2023",
+        "publisher": "Nintendo",
+        "description": "A direct sequel to Breath of the Wild, with new powers, locations, and epic battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "Splatoon2.png",
+        "title": "Splatoon 2",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "A colorful team-based shooter where players use ink to claim territory and defeat enemies.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PokemonShield.png",
+        "title": "Pokemon Shield",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "A role-playing adventure set in the Galar region, featuring new Pokémon and exciting battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "AnimalCrossingNewHorizons.png",
+        "title": "Animal Crossing: New Horizons",
+        "year": "2020",
+        "publisher": "Nintendo",
+        "description": "A life simulation game where players build and customize their own island paradise.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SnipperClipsPlus.png",
+        "title": "Snipperclips Plus",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "A cooperative puzzle game where players must cut out shapes to solve puzzles together.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MetroidPrimeRemastered.png",
+        "title": "Metroid Prime Remastered",
+        "year": "2023",
+        "publisher": "Nintendo",
+        "description": "A remastered version of the classic first-person Metroid adventure with updated visuals.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PaperMarioOrigamiKing.png",
+        "title": "Paper Mario: The Origami King",
+        "year": "2020",
+        "publisher": "Nintendo",
+        "description": "A paper-crafted RPG where Mario faces off against enemies made of folded paper.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "PaperMarioTheThousandYearDoor.png",
+        "title": "Paper Mario: The Thousand Year Door",
+        "year": "2024",
+        "publisher": "Nintendo",
+        "description": "A remake of the beloved Paper Mario RPG with turn-based combat and a quirky story.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMario3DWorldBowsersFury.png",
+        "title": "Super Mario 3D World + Bowser's Fury",
+        "year": "2021",
+        "publisher": "Nintendo",
+        "description": "A 3D Mario platformer that includes new content with a massive open-world mode, Bowser's Fury.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "KirbyReturnToDreamlandDeluxe.png",
+        "title": "Kirby Return to Dreamland Deluxe",
+        "year": "2023",
+        "publisher": "Nintendo",
+        "description": "An enhanced version of the original game, with new features and polished graphics.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperSmashBrosUltimate.png",
+        "title": "Super Smash Bros Ultimate",
+        "year": "2018",
+        "publisher": "Nintendo",
+        "description": "The ultimate brawler featuring characters from across Nintendo's iconic franchises.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "KirbyAndTheForgottenLand.png",
+        "title": "Kirby and the Forgotten Land",
+        "year": "2022",
+        "publisher": "Nintendo",
+        "description": "Kirby's latest 3D adventure, filled with new abilities and a post-apocalyptic world to explore.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MetroidDread.png",
+        "title": "Metroid Dread",
+        "year": "2021",
+        "publisher": "Nintendo",
+        "description": "A fast-paced action game where Samus faces off against deadly enemies in a dangerous world.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaBreathOfTheWild.png",
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "An open-world Zelda game with a huge world to explore, filled with puzzles and epic battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "HyruleWarriorsAgeOfCalamity.png",
+        "title": "Hyrule Warriors: Age of Calamity",
+        "year": "2020",
+        "publisher": "Nintendo",
+        "description": "A hack-and-slash game set 100 years before the events of Breath of the Wild, featuring epic battles.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "HyruleWarriorsDeluxe.png",
+        "title": "Hyrule Warriors Deluxe",
+        "year": "2014",
+        "publisher": "Nintendo",
+        "description": "A remastered version of the original Hyrule Warriors game with additional content and characters.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioMaker2.png",
+        "title": "Super Mario Maker 2",
+        "year": "2019",
+        "publisher": "Nintendo",
+        "description": "A platforming game where players can create and share their own custom Mario levels.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MarioKart8Deluxe.png",
+        "title": "Mario Kart 8 Deluxe",
+        "year": "2017",
+        "publisher": "Nintendo",
+        "description": "The ultimate version of the hit kart racing game with new tracks, characters, and online play.",
+        "console": "Switch",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "Splatoon.png",
+        "title": "Splatoon",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A colorful team-based shooter where players use ink to claim territory and defeat opponents.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "GuitarHeroLive.png",
+        "title": "Guitar Hero Live",
+        "year": "2015",
+        "publisher": "Activision",
+        "description": "A music rhythm game that features a new guitar controller and a live-action concert experience.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "StarFoxGuard.png",
+        "title": "Star Fox Guard",
+        "year": "2016",
+        "publisher": "Nintendo",
+        "description": "A tower defense game featuring Fox McCloud and his team as they protect their base from enemy forces.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "StarFoxZero.png",
+        "title": "Star Fox Zero",
+        "year": "2016",
+        "publisher": "Nintendo",
+        "description": "A rail shooter game where players control Fox McCloud as he battles across the Lylat system.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "NintendoLand.png",
+        "title": "Nintendo Land",
+        "year": "2012",
+        "publisher": "Nintendo",
+        "description": "A collection of mini-games set in various Nintendo franchises, designed to showcase the Wii U GamePad.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaTwilightPrincessHD.png",
+        "title": "The Legend of Zelda: Twilight Princess HD",
+        "year": "2016",
+        "publisher": "Nintendo",
+        "description": "An HD remaster of the acclaimed Zelda game, featuring enhanced graphics and improved gameplay.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "HyruleWarriors.png",
+        "title": "Hyrule Warriors",
+        "year": "2014",
+        "publisher": "Nintendo",
+        "description": "A hack-and-slash game set in the Zelda universe, featuring iconic characters and intense battles.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "GameAndWario.png",
+        "title": "Game & Wario",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "A collection of mini-games starring Wario and his friends, utilizing the Wii U GamePad's features.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "AnimalCrossingAmiiboFestival.png",
+        "title": "Animal Crossing: Amiibo Festival",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A party game set in the Animal Crossing universe, featuring amiibo integration and board game mechanics.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "NESRemix.png",
+        "title": "NES Remix",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "A compilation of classic NES games with new challenges and remixed gameplay.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "ScribblenautsUnlimited.png",
+        "title": "Scribblenauts Unlimited",
+        "year": "2013",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "description": "A puzzle game where players can create any object by writing its name to solve challenges.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MarioParty10.png",
+        "title": "Mario Party 10",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A party game featuring Mario and friends, with new modes and mini-games for multiplayer fun.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "KirbyAndTheRainbowCurse.png",
+        "title": "Kirby and the Rainbow Curse",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A platformer where players guide Kirby through a colorful world using the Wii U GamePad's touchscreen.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "LegoBatman3BeyondGotham.png",
+        "title": "LEGO Batman 3: Beyond Gotham",
+        "year": "2014",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "description": "An action-adventure game where players control Batman and other DC characters in a LEGO universe.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "LegoDimensions.png",
+        "title": "LEGO Dimensions",
+        "year": "2015",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "description": "A toys-to-life game that combines LEGO playsets with characters from various franchises.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "MarioAndSonicAtTheSochi2014OlympicWinterGames.png",
+        "title": "Mario and Sonic at the Sochi 2014 Olympic Winter Games",
+        "year": "2013",
+        "publisher": "Sega",
+        "description": "A sports game featuring Mario and Sonic competing in Olympic winter sports events.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "DonkeyKongTropicalFreeze.png",
+        "title": "Donkey Kong Country: Tropical Freeze",
+        "year": "2014",
+        "publisher": "Nintendo",
+        "description": "A platformer where Donkey Kong and friends face off against the Snowmads to reclaim their island.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "CaptainToadTreasureTracker.png",
+        "title": "Captain Toad: Treasure Tracker",
+        "year": "2014",
+        "publisher": "Nintendo",
+        "description": "A puzzle-platformer featuring Captain Toad as he explores levels to collect treasures.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMarioMaker.png",
+        "title": "Super Mario Maker",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A game that allows players to create and share their own custom Mario levels.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "NewSuperMarioBrosUPlusLuigiU.png",
+        "title": "New Super Mario Bros U + Luigi U",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "A compilation of two classic 2D Mario platformers, featuring cooperative multiplayer.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperSmashBrosWiiU.png",
+        "title": "Super Smash Bros. for Wii U",
+        "year": "2014",
+        "publisher": "Nintendo",
+        "description": "A crossover fighting game featuring characters from various Nintendo franchises.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SkylandersSwapForce.png",
+        "title": "Skylanders: Swap Force",
+        "year": "2013",
+        "publisher": "Activision",
+        "description": "A toys-to-life game where players use physical figurines to control characters in the game.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SkylanderSuperChargers.png",
+        "title": "Skylanders: SuperChargers",
+        "year": "2015",
+        "publisher": "Activision",
+        "description": "The latest entry in the Skylanders series, featuring vehicles and new characters.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SingParty.png",
+        "title": "Sing Party",
+        "year": "2012",
+        "publisher": "Nintendo",
+        "description": "A karaoke game that lets players sing along to popular songs and compete with friends.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "YoshisWoollyWorld.png",
+        "title": "Yoshi's Woolly World",
+        "year": "2015",
+        "publisher": "Nintendo",
+        "description": "A platformer featuring Yoshi in a beautifully crafted woolen world filled with creative challenges.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SuperMario3DWorld.png",
+        "title": "Super Mario 3D World",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "A 3D platformer that introduces new power-ups and cooperative gameplay for up to four players.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "TheLegendOfZeldaWindWakerHD.png",
+        "title": "The Legend of Zelda: The Wind Waker HD",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "An HD remaster of the classic Zelda game, featuring updated graphics and gameplay improvements.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "LegoMarvelSuperHeroes.png",
+        "title": "LEGO Marvel Super Heroes",
+        "year": "2013",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "description": "An action-adventure game featuring LEGO versions of Marvel superheroes in a new story.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "NewSuperLuigiU.png",
+        "title": "New Super Luigi U",
+        "year": "2013",
+        "publisher": "Nintendo",
+        "description": "A standalone expansion featuring Luigi in new, challenging levels.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "RabbidsLand.png",
+        "title": "Rabbids Land",
+        "year": "2013",
+        "publisher": "Ubisoft",
+        "description": "A party game featuring the Rabbids in a board game-style adventure with mini-games.",
+        "console": "Wii U",
+        "favGame": "n"
+      },
+      {
+        "coverImage": "SkylandersTrapTeam.png",
+        "title": "Skylanders: Trap Team",
+        "year": "2014",
+        "publisher": "Activision",
+        "description": "A toys-to-life game that introduces new trapping mechanics for capturing villains.",
+        "console": "Wii U",
+        "favGame": "n"
+      }
+    ]
+  }
+  

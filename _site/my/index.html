@@ -3,7 +3,7 @@
 <head>
     <meta charset="UFT-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>My Games</title>
 </head>
 <style>
 body {
@@ -18,7 +18,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #00FFFF;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,23 +31,24 @@ body {
 }
 
 .topnav a.active {
-  background-color: #000000;
+  background-color: #04AA6D;
   color: white;
 }
 </style>
 <body>
     <header>
         <nav>
-            <div class="topnav">
-            <a class="active" href="/about/">About</a>
-            <a href="/mygames/">My Games</a>
-            <a href="/myconsoles/">My Consoles</a>
-            <a href="/fav_games/">My Favourite Games</a>
-            </div>
+            <ul>
+                <li><a href="/home/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        {{ content | safe }}
+        
+<h1>My Consoles</h1>
     </main>
     <footer>
         <p>&copy; 2024 Terry</p>
