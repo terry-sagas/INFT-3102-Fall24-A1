@@ -7,8 +7,44 @@ permalink: /mygames/
 <h1>My Games</h1>
 
 <!-- Add the game container -->
-<div id="game-container"></div>
+<div id="game-container" class="grid-container"></div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px; /* Space between the cards */
+        padding: 20px;
+    }
 
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
 <script>
     // Fetch the JSON file
     fetch('games.json')  // Ensure the correct path
@@ -25,38 +61,24 @@ permalink: /mygames/
             gameData.games.forEach(game => {
                 // Create a div for each game
                 const gameDiv = document.createElement('div');
-                gameDiv.classList.add('game');
+                gameDiv.classList.add('card');
 
-                // Add cover image
+                // Add cover image (thumbnail style for cards)
                 const img = document.createElement('img');
-                img.src = game.coverImage;
+                img.src = `gameicons/${game.coverImage}`;
                 img.alt = game.title;
+                img.classList.add('card-image');
                 gameDiv.appendChild(img);
 
-                // Add title
+                // Add the title
                 const title = document.createElement('h2');
                 title.textContent = game.title;
                 gameDiv.appendChild(title);
 
-                // Add year
-                const year = document.createElement('p');
-                year.textContent = `Year: ${game.year}`;
-                gameDiv.appendChild(year);
-
-                // Add publisher
-                const publisher = document.createElement('p');
-                publisher.textContent = `Publisher: ${game.publisher}`;
-                gameDiv.appendChild(publisher);
-
-                // Add description
+                // Add the description
                 const description = document.createElement('p');
                 description.textContent = game.description;
                 gameDiv.appendChild(description);
-
-                // Add console
-                const consoleType = document.createElement('p');
-                consoleType.textContent = `Console: ${game.console}`;
-                gameDiv.appendChild(consoleType);
 
                 // Append the gameDiv to the main container
                 gameContainer.appendChild(gameDiv);

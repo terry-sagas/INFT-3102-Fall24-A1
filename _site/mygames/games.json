@@ -331,7 +331,7 @@
         "publisher": "Nintendo",
         "description": "A remastered version of the original Hyrule Warriors game with additional content and characters.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "SuperMarioMaker2.png",
@@ -349,7 +349,7 @@
         "publisher": "Nintendo",
         "description": "The ultimate version of the hit kart racing game with new tracks, characters, and online play.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "Splatoon.png",
@@ -403,7 +403,7 @@
         "publisher": "Nintendo",
         "description": "An HD remaster of the acclaimed Zelda game, featuring enhanced graphics and improved gameplay.",
         "console": "Wii U",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "HyruleWarriors.png",
@@ -592,7 +592,7 @@
         "publisher": "Nintendo",
         "description": "An HD remaster of the classic Zelda game, featuring updated graphics and gameplay improvements.",
         "console": "Wii U",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "LegoMarvelSuperHeroes.png",
