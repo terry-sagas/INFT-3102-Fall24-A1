@@ -1,18 +1,32 @@
 ---
 layout: layouts/base.njk
 title: My Games
-permalink: /mygames/
+permalink: /mygames{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/
+pagination:
+  data: collections.games
+  size: 8
+  alias: game
 ---
 
 <h1>My Games</h1>
 
-<!-- Add the game container -->
-<div id="game-container" class="grid-container"></div>
+<div id="game-container" class="grid-container">
+  {% for game in pagination.items %}
+    <div class="card">
+      <img src="/gameicons/{{ game.coverImage }}" alt="{{ game.title }}" class="card-image">
+      <h2>{{ game.title }}</h2>
+      <p>{{ game.description }}</p>
+      <p><strong>Year:</strong> {{ game.year }}</p>
+      <p><strong>Publisher:</strong> {{ game.publisher }}</p>
+      <p><strong>Console:</strong> {{ game.console }}</p>
+    </div>
+  {% endfor %}
+</div>
 <style>
     .grid-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr); 
-        gap: 20px; /* Space between the cards */
+        gap: 20px;
         padding: 20px;
     }
 
@@ -45,46 +59,15 @@ permalink: /mygames/
         color: #666;
     }
 </style>
-<script>
-    // Fetch the JSON file
-    fetch('games.json')  // Ensure the correct path
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(gameData => {
-            const gameContainer = document.getElementById('game-container');
 
-            // Loop through the games and display them on the page
-            gameData.games.forEach(game => {
-                // Create a div for each game
-                const gameDiv = document.createElement('div');
-                gameDiv.classList.add('card');
+<!-- Pagination Controls -->
+<div class="pagination">
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}">Previous</a>
+  {% endif %}
 
-                // Add cover image (thumbnail style for cards)
-                const img = document.createElement('img');
-                img.src = `gameicons/${game.coverImage}`;
-                img.alt = game.title;
-                img.classList.add('card-image');
-                gameDiv.appendChild(img);
-
-                // Add the title
-                const title = document.createElement('h2');
-                title.textContent = game.title;
-                gameDiv.appendChild(title);
-
-                // Add the description
-                const description = document.createElement('p');
-                description.textContent = game.description;
-                gameDiv.appendChild(description);
-
-                // Append the gameDiv to the main container
-                gameContainer.appendChild(gameDiv);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching the JSON file:', error);
-        });
-</script>
+  
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}">Next</a>
+  {% endif %}
+</div>
