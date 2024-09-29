@@ -45,7 +45,7 @@ body {
             <div class="topnav">
             <img src="/images/logo.png" alt="Logo">
             <a class="active" href="/about/">About</a>
-            <a href="/mygames/">My Games</a>
+            <a href="/mygames/page/1/">My Games</a>
             <a href="/myconsoles/">My Consoles</a>
             <a href="/fav_games/">My Favourite Games</a>
             </div>
@@ -54,6 +54,8 @@ body {
     <main>
         
 <h1>My Consoles</h1>
+<h2>Here is a list of Home consoles i own:</h2>
+<p>     just a note the years display are when the console released</p>
 
 
 <html>
@@ -65,7 +67,12 @@ body {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -102,7 +109,7 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #474e5d;
+  background-color: #1e1e1e;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -128,9 +135,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #1e1e1e;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #1e1e1e;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -142,9 +149,9 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #1e1e1e;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #1e1e1e transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -155,9 +162,13 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #474e5d;
+  background-color: #1e1e1e;
   position: relative;
   border-radius: 6px;
+}
+.content img {
+  height: 150px; 
+  margin: 5px; 
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -177,9 +188,9 @@ body {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
-  border: #474e5d;
+  border: #1e1e1e;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #1e1e1e transparent #1e1e1e;
   }
 
   /* Make sure all circles are at the same spot */
@@ -191,49 +202,94 @@ body {
   .right {
   left: 0%;
   }
+
 }
 </style>
 </head>
 <body>
+  
 
 <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1985&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/NES.png" alt="NES"></h2>
+      
+      <p>The NES is my oldest console and i got it in 2016, everything still works perfectly. Its nice seeing where it all started with the pillars of the game icons. I have fun playing Super Mario Bros and The Legend of Zelda.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/snes.png" alt="SNES"></h2>
+      <p>Nintendo's second console, i got this console back in 2018, this had many games like Donkey Kong Country, Earthbound, Mario RPG, and one of my personal favourites Super Mario World.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1996&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/n64.png" alt="N64"></h2>
+      <p>Nintendo's 3rd console, i got this console in 2019, some of my personal favourite games are on this console, like Ocarina of Time Majoras mask and the first Paper Mario. Other Games i enjoy on the system are Mario 64 the original Super Smash Bros</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>2000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/ps2.png" alt="PS2"></h2>
+      <p>Sony's second console, This is the most recent console that i recived got it in August of 2024 i only have 2 games for it being the first 2 Kingdom Hearts. i still need a memory card so, i cant really play much (lol).</p></div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/gamecube.png" alt="GameCube"></h2>
+      <p>Now the GameCube is the oldest console that i own that was actually bought by my family all the older consoles are preowned and i bought them or given to me, my mom and dad bought this a year before i was born and was the first time i played games i play amazing games like Mario Sunshine, Luigi's Mansion, and my favourite game of all time Paper Mario the Thousand Year Door.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/Xbox.png" alt="Xbox"></h2>
+      <p>Releasing along side the GameCube is the original Xbox not the One or Series the first xbox. I have no games but it was given to me by a friend with the ps2. Its a really big console almost like a PC. im just writing some filler in here because I don't really have much else to say about my xbox. Its large and cool thats about it.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>2006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/wii.png" alt="Wii"></h2>
+      <p>My parents bought the Wii in 2006 just a few months after it released, i played so many games on this, Mario Galaxy 1 and 2 The Legend of Zelda Skyward Sword (my personal favourite Zelda game) and many others. I put way too many hours into the Wii but it was fun.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/ps3.png" alt="PS3"></h2>
+      <p>also in 2006 released the PS3 i actually dont remember what year i got this, it was given to me at some point before i got the PS4 but i dont remember. I played some amazing games on this Little Big Planet 1, 2, 3, and Racing, Need for Speed Hot Pursuit and pretty much all Ratchet and Clank games.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/wiiu.png" alt="Wiiu"></h2>
+      <p>Although it didnt release with the best games, was not the most powerful and not the most successful the Wiiu is still one of my favourite consoles. I got this for my birthday in 2013, with Wind Waker HD and Skylanders Swap Force. this was my main console for a long time because i was of age to understand games, and play them with some skill.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/xbox1.png" alt="xboxOne"></h2>
+      <p>The Xbox One was my first console i got that can play more adult games, got it for Christmas in 2015, with the xbox i got games Like Halo, Destiny and eventually GTA V. This is also the first time i can play online with friends.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/ps4.png" alt="Wiiu"></h2>
+      <p>the PS4 is something i got in 2017 it was given to me by my uncle as he had no time to play it, this is where i played Fortnite for the first time, and eventually when Spider-Man came out i play it a lot, but not something i played on too much.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/switch.png" alt="Switch"></h2>
+      <p>The Nintendo Switch is the console i can write the most about. This Console came out in March of 2017, and me being the biggest Nintendo fan i needed to get one, but Switches were really rare, and were not stocked properly and i didnt get one till May of 2017 in a shoppers of all places. i even bought The Legend of Zelda Breath of the Wild before i got the console only because i got a good deal on it. but i played and stil play many games on this, its amazing!</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/PS5.png" alt="PS5"></h2>
+      <p>The PS5 is my latest console for now i got it in the summer of 2021, like the Switch its stock was not great but for diffrent reason, this is because of the thing that was happening in the world at the time. i got Ratchet and Clank Rift Appart, Spidermans Miles Morales, and one my favourite games Marvels Spider Man 2.</p>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>
