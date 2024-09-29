@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav img {
+  height: 40px; 
+  margin: 5px; 
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+            <img src="/images/logo.png" alt="Logo">
+            <a class="active" href="/about/">About</a>
+            <a href="/mygames/">My Games</a>
+            <a href="/myconsoles/">My Consoles</a>
+            <a href="/fav_games/">My Favourite Games</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+<h1>My Games</h1>
+
+<div id="game-container" class="grid-container">
+  
+    <div class="card">
+      <img src="/gameicons/Splatoon3.png" alt="Splatoon 3" class="card-image">
+      <h2>Splatoon 3</h2>
+      <p>A team-based shooter where players use ink to claim territory and defeat opponents.</p>
+      <p><strong>Year:</strong> 2022</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperMarioOdyssey.png" alt="Super Mario Odyssey" class="card-image">
+      <h2>Super Mario Odyssey</h2>
+      <p>A 3D Mario platformer with vast open worlds, new power-ups, and Cappy, Mario&#39;s new hat companion.</p>
+      <p><strong>Year:</strong> 2017</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperMarioRPG.png" alt="Super Mario RPG" class="card-image">
+      <h2>Super Mario RPG</h2>
+      <p>A remake of the classic Mario RPG featuring turn-based combat and a charming story.</p>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperMarioBrosWonder.png" alt="Super Mario Bros Wonder" class="card-image">
+      <h2>Super Mario Bros Wonder</h2>
+      <p>A new 2D Mario platformer with wonder effects that change the world in exciting ways.</p>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/PokemonLegendsArceus.png" alt="Pokemon Legends: Arceus" class="card-image">
+      <h2>Pokemon Legends: Arceus</h2>
+      <p>An open-world Pokémon game set in ancient times, where players catch and battle wild Pokémon.</p>
+      <p><strong>Year:</strong> 2022</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/PokemonShiningPearl.png" alt="Pokemon Shining Pearl" class="card-image">
+      <h2>Pokemon Shining Pearl</h2>
+      <p>A remake of Pokémon Pearl, updated for modern audiences with new features.</p>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/ARMS.png" alt="ARMS" class="card-image">
+      <h2>ARMS</h2>
+      <p>A fighting game where players use extendable arms to battle opponents in 3D arenas.</p>
+      <p><strong>Year:</strong> 2017</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/KirbyStarAllies.png" alt="Kirby Star Allies" class="card-image">
+      <h2>Kirby Star Allies</h2>
+      <p>A Kirby platformer where Kirby teams up with friends to defeat enemies and solve puzzles.</p>
+      <p><strong>Year:</strong> 2018</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+</div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+
+<div class="pagination">
+  <!-- Show Previous button if applicable -->
+  
+    <a href="/mygames/">Previous</a>
+  
+
+  <!-- Display page numbers -->
+  
+
+  <!-- Show Next button if applicable -->
+  
+    <a href="/mygames/page2/">Next</a>
+  
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terry</p>
+    </footer>
+</body>
+</html>
+

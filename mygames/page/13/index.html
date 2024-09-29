@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav img {
+  height: 40px; 
+  margin: 5px; 
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+            <img src="/images/logo.png" alt="Logo">
+            <a class="active" href="/about/">About</a>
+            <a href="/mygames/">My Games</a>
+            <a href="/myconsoles/">My Consoles</a>
+            <a href="/fav_games/">My Favourite Games</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+<h1>My Games</h1>
+
+<div id="game-container" class="grid-container">
+  
+    <div class="card">
+      <img src="/gameicons/TheLegendOfZeldaWindWakerHD.png" alt="The Legend of Zelda: The Wind Waker HD" class="card-image">
+      <h2>The Legend of Zelda: The Wind Waker HD</h2>
+      <p>An HD remaster of the classic Zelda game, featuring updated graphics and gameplay improvements.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/LegoMarvelSuperHeroes.png" alt="LEGO Marvel Super Heroes" class="card-image">
+      <h2>LEGO Marvel Super Heroes</h2>
+      <p>An action-adventure game featuring LEGO versions of Marvel superheroes in a new story.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Warner Bros. Interactive Entertainment</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/NewSuperLuigiU.png" alt="New Super Luigi U" class="card-image">
+      <h2>New Super Luigi U</h2>
+      <p>A standalone expansion featuring Luigi in new, challenging levels.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/RabbidsLand.png" alt="Rabbids Land" class="card-image">
+      <h2>Rabbids Land</h2>
+      <p>A party game featuring the Rabbids in a board game-style adventure with mini-games.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Ubisoft</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SkylandersTrapTeam.png" alt="Skylanders: Trap Team" class="card-image">
+      <h2>Skylanders: Trap Team</h2>
+      <p>A toys-to-life game that introduces new trapping mechanics for capturing villains.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Activision</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+</div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+
+<div class="pagination">
+  
+    <a href="/mygames/page/12/">Previous</a>
+  
+
+  
+  
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terry</p>
+    </footer>
+</body>
+</html>
+

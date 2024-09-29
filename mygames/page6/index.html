@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav img {
+  height: 40px; 
+  margin: 5px; 
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+            <img src="/images/logo.png" alt="Logo">
+            <a class="active" href="/about/">About</a>
+            <a href="/mygames/">My Games</a>
+            <a href="/myconsoles/">My Consoles</a>
+            <a href="/fav_games/">My Favourite Games</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+<h1>My Games</h1>
+
+<div id="game-container" class="grid-container">
+  
+    <div class="card">
+      <img src="/gameicons/NESRemix.png" alt="NES Remix" class="card-image">
+      <h2>NES Remix</h2>
+      <p>A compilation of classic NES games with new challenges and remixed gameplay.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/ScribblenautsUnlimited.png" alt="Scribblenauts Unlimited" class="card-image">
+      <h2>Scribblenauts Unlimited</h2>
+      <p>A puzzle game where players can create any object by writing its name to solve challenges.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Warner Bros. Interactive Entertainment</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/MarioParty10.png" alt="Mario Party 10" class="card-image">
+      <h2>Mario Party 10</h2>
+      <p>A party game featuring Mario and friends, with new modes and mini-games for multiplayer fun.</p>
+      <p><strong>Year:</strong> 2015</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/KirbyAndTheRainbowCurse.png" alt="Kirby and the Rainbow Curse" class="card-image">
+      <h2>Kirby and the Rainbow Curse</h2>
+      <p>A platformer where players guide Kirby through a colorful world using the Wii U GamePad&#39;s touchscreen.</p>
+      <p><strong>Year:</strong> 2015</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/LegoBatman3BeyondGotham.png" alt="LEGO Batman 3: Beyond Gotham" class="card-image">
+      <h2>LEGO Batman 3: Beyond Gotham</h2>
+      <p>An action-adventure game where players control Batman and other DC characters in a LEGO universe.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Warner Bros. Interactive Entertainment</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/LegoDimensions.png" alt="LEGO Dimensions" class="card-image">
+      <h2>LEGO Dimensions</h2>
+      <p>A toys-to-life game that combines LEGO playsets with characters from various franchises.</p>
+      <p><strong>Year:</strong> 2015</p>
+      <p><strong>Publisher:</strong> Warner Bros. Interactive Entertainment</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/MarioAndSonicAtTheSochi2014OlympicWinterGames.png" alt="Mario and Sonic at the Sochi 2014 Olympic Winter Games" class="card-image">
+      <h2>Mario and Sonic at the Sochi 2014 Olympic Winter Games</h2>
+      <p>A sports game featuring Mario and Sonic competing in Olympic winter sports events.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Sega</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/DonkeyKongTropicalFreeze.png" alt="Donkey Kong Country: Tropical Freeze" class="card-image">
+      <h2>Donkey Kong Country: Tropical Freeze</h2>
+      <p>A platformer where Donkey Kong and friends face off against the Snowmads to reclaim their island.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+</div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+
+<div class="pagination">
+  <!-- Show Previous button if applicable -->
+  
+    <a href="/mygames/page5/">Previous</a>
+  
+
+  <!-- Display page numbers -->
+  
+
+  <!-- Show Next button if applicable -->
+  
+    <a href="/mygames/page7/">Next</a>
+  
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terry</p>
+    </footer>
+</body>
+</html>
+

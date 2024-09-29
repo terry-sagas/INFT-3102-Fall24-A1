@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav img {
+  height: 40px; 
+  margin: 5px; 
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+            <img src="/images/logo.png" alt="Logo">
+            <a class="active" href="/about/">About</a>
+            <a href="/mygames/">My Games</a>
+            <a href="/myconsoles/">My Consoles</a>
+            <a href="/fav_games/">My Favourite Games</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+<h1>My Games</h1>
+
+<div id="game-container" class="grid-container">
+  
+    <div class="card">
+      <img src="/gameicons/DonkeyKongTropicalFreeze.png" alt="Donkey Kong Country: Tropical Freeze" class="card-image">
+      <h2>Donkey Kong Country: Tropical Freeze</h2>
+      <p>A platformer where Donkey Kong and friends face off against the Snowmads to reclaim their island.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/CaptainToadTreasureTracker.png" alt="Captain Toad: Treasure Tracker" class="card-image">
+      <h2>Captain Toad: Treasure Tracker</h2>
+      <p>A puzzle-platformer featuring Captain Toad as he explores levels to collect treasures.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperMarioMaker.png" alt="Super Mario Maker" class="card-image">
+      <h2>Super Mario Maker</h2>
+      <p>A game that allows players to create and share their own custom Mario levels.</p>
+      <p><strong>Year:</strong> 2015</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/NewSuperMarioBrosUPlusLuigiU.png" alt="New Super Mario Bros U + Luigi U" class="card-image">
+      <h2>New Super Mario Bros U + Luigi U</h2>
+      <p>A compilation of two classic 2D Mario platformers, featuring cooperative multiplayer.</p>
+      <p><strong>Year:</strong> 2013</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperSmashBrosWiiU.png" alt="Super Smash Bros. for Wii U" class="card-image">
+      <h2>Super Smash Bros. for Wii U</h2>
+      <p>A crossover fighting game featuring characters from various Nintendo franchises.</p>
+      <p><strong>Year:</strong> 2014</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Wii U</p>
+    </div>
+  
+</div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+
+<div class="pagination">
+  
+    <a href="/mygames/page/10/">Previous</a>
+  
+
+  
+  
+    <a href="/mygames/page/12/">Next</a>
+  
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terry</p>
+    </footer>
+</body>
+</html>
+

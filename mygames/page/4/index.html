@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav img {
+  height: 40px; 
+  margin: 5px; 
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+            <img src="/images/logo.png" alt="Logo">
+            <a class="active" href="/about/">About</a>
+            <a href="/mygames/page/1/">My Games</a>
+            <a href="/myconsoles/">My Consoles</a>
+            <a href="/fav_games/">My Favourite Games</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+<h1>My Games</h1>
+
+<div id="game-container" class="grid-container">
+  
+    <div class="card">
+      <img src="/gameicons/AnimalCrossingNewHorizons.png" alt="Animal Crossing: New Horizons" class="card-image">
+      <h2>Animal Crossing: New Horizons</h2>
+      <p>A life simulation game where players build and customize their own island paradise.</p>
+      <p><strong>Year:</strong> 2020</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SnipperClipsPlus.png" alt="Snipperclips Plus" class="card-image">
+      <h2>Snipperclips Plus</h2>
+      <p>A cooperative puzzle game where players must cut out shapes to solve puzzles together.</p>
+      <p><strong>Year:</strong> 2017</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/MetroidPrimeRemastered.png" alt="Metroid Prime Remastered" class="card-image">
+      <h2>Metroid Prime Remastered</h2>
+      <p>A remastered version of the classic first-person Metroid adventure with updated visuals.</p>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/PaperMarioOrigamiKing.png" alt="Paper Mario: The Origami King" class="card-image">
+      <h2>Paper Mario: The Origami King</h2>
+      <p>A paper-crafted RPG where Mario faces off against enemies made of folded paper.</p>
+      <p><strong>Year:</strong> 2020</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/PaperMarioTheThousandYearDoor.png" alt="Paper Mario: The Thousand Year Door" class="card-image">
+      <h2>Paper Mario: The Thousand Year Door</h2>
+      <p>A remake of the beloved Paper Mario RPG with turn-based combat and a quirky story.</p>
+      <p><strong>Year:</strong> 2024</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperMario3DWorldBowsersFury.png" alt="Super Mario 3D World + Bowser&#39;s Fury" class="card-image">
+      <h2>Super Mario 3D World + Bowser&#39;s Fury</h2>
+      <p>A 3D Mario platformer that includes new content with a massive open-world mode, Bowser&#39;s Fury.</p>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/KirbyReturnToDreamlandDeluxe.png" alt="Kirby Return to Dreamland Deluxe" class="card-image">
+      <h2>Kirby Return to Dreamland Deluxe</h2>
+      <p>An enhanced version of the original game, with new features and polished graphics.</p>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+    <div class="card">
+      <img src="/gameicons/SuperSmashBrosUltimate.png" alt="Super Smash Bros Ultimate" class="card-image">
+      <h2>Super Smash Bros Ultimate</h2>
+      <p>The ultimate brawler featuring characters from across Nintendo&#39;s iconic franchises.</p>
+      <p><strong>Year:</strong> 2018</p>
+      <p><strong>Publisher:</strong> Nintendo</p>
+      <p><strong>Console:</strong> Switch</p>
+    </div>
+  
+</div>
+<style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #1e1e1e;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+        color: #ffffff;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #b0b0b0;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .pagination a {
+        margin: 0 5px;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f4f4f4;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .pagination a:hover {
+        background-color: #ddd;
+    }
+
+    .pagination a.active {
+        background-color: #333;
+        color: white;
+    }
+
+    .pagination a {
+        color: #e0e0e0;
+        background-color: #333;
+    }
+
+    .pagination a:hover {
+        background-color: #444;
+    }
+
+    .pagination a.active {
+        background-color: #bb86fc;
+        color: white;
+    }
+</style>
+
+
+<div class="pagination">
+  
+    <a href="/mygames/page/3/">Previous</a>
+  
+
+  
+    
+    &nbsp;<a href="/mygames/page/1/"> Page 1 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/2/"> Page 2 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/3/"> Page 3 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/4/"> Page 4 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/5/"> Page 5 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/6/"> Page 6 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/7/"> Page 7 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/8/"> Page 8 </a>&nbsp;
+  
+    
+    &nbsp;<a href="/mygames/page/9/"> Page 9 </a>&nbsp;
+  
+  
+  
+    <a href="/mygames/page/5/">Next</a>
+  
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terry</p>
+    </footer>
+</body>
+</html>
+
