@@ -43,7 +43,7 @@
         "publisher": "Nintendo",
         "description": "An HD remaster of the classic Zelda game, featuring enhanced graphics and motion controls.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "SuperMarioBrosUDeluxe.png",
@@ -88,7 +88,7 @@
         "publisher": "Nintendo",
         "description": "A 3D Mario platformer with vast open worlds, new power-ups, and Cappy, Mario's new hat companion.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "SuperMarioRPG.png",
@@ -106,7 +106,7 @@
         "publisher": "Nintendo",
         "description": "A new 2D Mario platformer with wonder effects that change the world in exciting ways.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "PokemonLegendsArceus.png",
@@ -115,7 +115,7 @@
         "publisher": "Nintendo",
         "description": "An open-world Pokémon game set in ancient times, where players catch and battle wild Pokémon.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "PokemonShiningPearl.png",
@@ -169,7 +169,7 @@
         "publisher": "Nintendo",
         "description": "Luigi explores a haunted hotel, using his trusty Poltergust to solve puzzles and catch ghosts.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "ShovelKnightTreasureTrove.png",
@@ -196,7 +196,7 @@
         "publisher": "Nintendo",
         "description": "A direct sequel to Breath of the Wild, with new powers, locations, and epic battles.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "Splatoon2.png",
@@ -259,7 +259,7 @@
         "publisher": "Nintendo",
         "description": "A remake of the beloved Paper Mario RPG with turn-based combat and a quirky story.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "SuperMario3DWorldBowsersFury.png",
@@ -313,7 +313,7 @@
         "publisher": "Nintendo",
         "description": "An open-world Zelda game with a huge world to explore, filled with puzzles and epic battles.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "HyruleWarriorsAgeOfCalamity.png",
@@ -331,7 +331,7 @@
         "publisher": "Nintendo",
         "description": "A remastered version of the original Hyrule Warriors game with additional content and characters.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "SuperMarioMaker2.png",
@@ -349,7 +349,7 @@
         "publisher": "Nintendo",
         "description": "The ultimate version of the hit kart racing game with new tracks, characters, and online play.",
         "console": "Switch",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "Splatoon.png",
@@ -403,7 +403,7 @@
         "publisher": "Nintendo",
         "description": "An HD remaster of the acclaimed Zelda game, featuring enhanced graphics and improved gameplay.",
         "console": "Wii U",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "HyruleWarriors.png",
@@ -592,7 +592,7 @@
         "publisher": "Nintendo",
         "description": "An HD remaster of the classic Zelda game, featuring updated graphics and gameplay improvements.",
         "console": "Wii U",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "LegoMarvelSuperHeroes.png",
@@ -601,7 +601,7 @@
         "publisher": "Warner Bros. Interactive Entertainment",
         "description": "An action-adventure game featuring LEGO versions of Marvel superheroes in a new story.",
         "console": "Wii U",
-        "favGame": "n"
+        "favGame": "y"
       },
       {
         "coverImage": "NewSuperLuigiU.png",

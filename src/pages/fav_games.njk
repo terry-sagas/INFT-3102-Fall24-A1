@@ -5,3 +5,75 @@ permalink: /fav_games/
 ---
 
 <h1>My Favourite Games</h1>
+<p>Just a small list of some of my favourite games i own</p>
+
+<div id="game-container" class="grid-container">
+  {% for game in collections.games %}
+    {% if game.favGame == "y" %}
+      <div class="card">
+          <img src="/gameicons/{{ game.coverImage }}" alt="{{ game.title }}" class="card-image">
+          <img src="/images/logo.png" alt="Logo" class="logo-top-right">
+          <h2>{{ game.title }}</h2>
+          <p>{{ game.description }}</p>
+          <p><strong>Year:</strong> {{ game.year }}</p>
+          <p><strong>Publisher:</strong> {{ game.publisher }}</p>
+          <p><strong>Console:</strong> {{ game.console }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        position: relative;
+        background-color: #1e1e1e;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s, border 0.3s;
+        border: 2px cyan solid; 
+    }
+    .logo-top-right {
+        position: absolute;
+        top: 10px; 
+        right: 10px; 
+        width: 30px; 
+        height: auto;
+    }
+    
+
+    .card:hover {
+        transform: translateY(-10px);
+        border-color: gold; 
+    }
+
+    .card-image {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+        color: #ffffff;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        color: #b0b0b0;
+    }
+</style>
